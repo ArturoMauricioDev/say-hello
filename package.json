@@ -1,0 +1,28 @@
+{
+  "name": "say-hello",
+  "version": "1.0.0",
+  "description": "saluda a todos mis amigos",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ElTureque/say-hello.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "npm"
+  ],
+  "author": "Arturo Mauricio",
+  "license": "MIT",
+  "bin": {
+    "say-hello": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "bugs": {
+    "url": "https://github.com/ElTureque/say-hello/issues"
+  },
+  "homepage": "https://github.com/ElTureque/say-hello#readme"
+}
